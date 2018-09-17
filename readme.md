@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/DEFRA/hapi-api-boilerplate.svg?branch=master)](https://travis-ci.org/DEFRA/hapi-api-boilerplate)
+[![Build Status](https://travis-ci.org/DEFRA/hapi-api-boilerplate.svg?branch=master)](https://travis-ci.org/DEFRA/hapi-api-boilerplate) [![Maintainability](https://api.codeclimate.com/v1/badges/c1b6847c119ba19a8ae3/maintainability)](https://codeclimate.com/github/DEFRA/hapi-api-boilerplate/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/c1b6847c119ba19a8ae3/test_coverage)](https://codeclimate.com/github/DEFRA/hapi-api-boilerplate/test_coverage)
 
 # (Enter service name)
 (Description of the service)
