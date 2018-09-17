@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "8.x.x"
+  - "8"
 addons:
   code_climate:
     repo_token: 87feacd05a49c0f710303701e7802f2edd591321104d2ad3aeef12005905f316 
