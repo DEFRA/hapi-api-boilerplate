@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/DEFRA/hapi-api-boilerplate.svg?branch=master)](https://travis-ci.org/DEFRA/hapi-api-boilerplate)
+
 # (Enter service name)
 (Description of the service)
 
@@ -19,7 +21,8 @@ Once you clone this repository you'll need to make a few changes before you're r
 
 - [ ] Add service name and description to the README above
 - [ ] Update the `package.json` with the name, description and any git urls and authors etc.  
-- [ ] Finally, remove the .git folder in the root directory. This will cut the cord to this boilerplate repo.
+- [ ] Remove the .git folder in the root directory. This will cut the cord to this boilerplate repo.
+- [ ] Update the build status badges for your new project
 
 # Running the application
 
