@@ -13,7 +13,7 @@
   "dependencies": {
     "boom": "7.2.0",
     "hapi": "17.6.0",
-    "joi": "14.0.0"
+    "joi": "14.0.1"
   },
   "devDependencies": {
     "blipp": "3.0.0",
