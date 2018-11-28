@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "boom": "7.2.2",
+    "boom": "7.3.0",
     "hapi": "17.7.0",
     "joi": "14.0.4"
   },
