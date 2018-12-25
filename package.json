@@ -16,7 +16,7 @@
     "joi": "14.0.4"
   },
   "devDependencies": {
-    "blipp": "3.1.1",
+    "blipp": "3.1.2",
     "code": "5.2.3",
     "codeclimate-test-reporter": "0.5.1",
     "good": "8.1.1",
