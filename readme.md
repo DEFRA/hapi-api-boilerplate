@@ -1,15 +1,14 @@
 [![Build Status](https://travis-ci.org/DEFRA/hapi-api-boilerplate.svg?branch=master)](https://travis-ci.org/DEFRA/hapi-api-boilerplate) [![Maintainability](https://api.codeclimate.com/v1/badges/c1b6847c119ba19a8ae3/maintainability)](https://codeclimate.com/github/DEFRA/hapi-api-boilerplate/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/c1b6847c119ba19a8ae3/test_coverage)](https://codeclimate.com/github/DEFRA/hapi-api-boilerplate/test_coverage) [![Greenkeeper badge](https://badges.greenkeeper.io/DEFRA/hapi-api-boilerplate.svg)](https://greenkeeper.io/)
 
-# (Enter service name)
-(Description of the service)
+# elm-api-boilerplate
+ELM Land Management Plan API service
 
 # Environment variables
-(Be sure to describe any environment variables here by maintaining a list like this)
 
 | name     | description      | required | default |            valid            | notes |
 |----------|------------------|:--------:|---------|:---------------------------:|-------|
 | NODE_ENV | Node environment |    no    |         | development,test,production |       |
-| PORT     | Port number      |    no    | 3000    |                             |       |
+| PORT     | Port number      |    no    | 3001    |                             |       |
 
 # Prerequisites
 
@@ -48,7 +47,7 @@ Based on:
 
 Clone this repo and run through the checklist above.
 
-Check the server is running by pointing your browser to `http://localhost:3000`
+Check the server is running by pointing your browser to `http://localhost:3001`
 
 ## Project structure
 

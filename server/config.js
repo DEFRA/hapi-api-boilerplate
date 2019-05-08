@@ -2,7 +2,7 @@ const joi = require('joi')
 
 // Define config schema
 const schema = {
-  port: joi.number().default(3000),
+  port: joi.number().default(3001),
   env: joi.string().valid('development', 'test', 'production').default('development')
 }
 
