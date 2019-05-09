@@ -18,9 +18,9 @@ Node v8+
 # (Checklist)
 Once you clone this repository you'll need to make a few changes before you're ready to start:
 
-- [ ] Add service name and description to the README above
-- [ ] Update the `package.json` with the name, description and any git urls and authors etc.  
-- [ ] Remove the .git folder in the root directory. This will cut the cord to this boilerplate repo.
+- [x] Add service name and description to the README above
+- [x] Update the `package.json` with the name, description and any git urls and authors etc.  
+- [x] Remove the .git folder in the root directory. This will cut the cord to this boilerplate repo.
 - [ ] Update the build status badges for your new project
 
 # Running the application
