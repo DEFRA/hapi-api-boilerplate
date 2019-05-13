@@ -15,7 +15,7 @@
     "Matthew Collins <matthew.collins@defra.gov.uk>",
     "David Bingham <david.bingham@defra.gov.uk>"
   ],
-  "license": "OGL",
+  "license": "OGL-UK-3.0",
   "dependencies": {
     "boom": "^7.3.0",
     "hapi": "^18.1.0",
