@@ -1,5 +1,6 @@
 const routes = [].concat(
-  require('../routes/home')
+  require('../routes/home'),
+  require('../routes/viewcount')
 )
 
 module.exports = {

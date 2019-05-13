@@ -21,4 +21,30 @@ lab.experiment('API test', () => {
     Code.expect(response.statusCode).to.equal(200)
     Code.expect(response.result).to.equal({ hello: 'world' })
   })
+
+  lab.test('GET /viewcount route works', async () => {
+    const options = {
+      method: 'GET',
+      url: '/viewcount'
+    }
+
+    const response = await server.inject(options)
+    Code.expect(response.statusCode).to.equal(200)
+    Code.expect(response.result.viewcount).to.be.number()
+  })
+
+  lab.test('GET /viewcount increases', async () => {
+    const options = {
+      method: 'GET',
+      url: '/viewcount'
+    }
+
+    const response = await server.inject(options)
+    Code.expect(response.statusCode).to.equal(200)
+    Code.expect(response.result.viewcount).to.be.number()
+
+    const secondresponse = await server.inject(options)
+    Code.expect(secondresponse.statusCode).to.equal(200)
+    Code.expect(secondresponse.result.viewcount).to.equal(response.result.viewcount + 1)
+  })
 })
