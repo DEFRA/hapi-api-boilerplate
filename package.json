@@ -1,5 +1,5 @@
 {
-  "name": "glupe-base",
+  "name": "hapi-api-boilerplate",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -11,19 +11,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "boom": "7.2.2",
-    "hapi": "17.7.0",
-    "joi": "14.0.4"
+    "@hapi/boom": "7.4.2",
+    "@hapi/hapi": "18.3.1",
+    "@hapi/joi": "15.1.0"
   },
   "devDependencies": {
-    "blipp": "3.1.1",
-    "code": "5.2.3",
+    "@hapi/code": "6.0.0",
+    "@hapi/good": "8.2.0",
+    "@hapi/good-console": "8.1.0",
+    "@hapi/good-squeeze": "5.2.0",
+    "@hapi/lab": "19.1.0",
+    "blipp": "4.0.0",
     "codeclimate-test-reporter": "0.5.1",
-    "good": "8.1.1",
-    "good-console": "7.1.0",
-    "good-file": "6.0.1",
-    "good-squeeze": "5.1.0",
-    "lab": "17.3.0",
-    "standard": "12.0.1"
+    "standard": "13.1.0"
   }
 }
