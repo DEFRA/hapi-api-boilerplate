@@ -5,24 +5,25 @@
   "main": "index.js",
   "scripts": {
     "lint": "standard",
+    "start": "node index.js",
     "unit-test": "lab -c -r console -o stdout -r lcov -o lcov.info",
     "test": "npm run lint && npm run unit-test"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hapi/boom": "7.4.2",
-    "@hapi/hapi": "18.3.1",
-    "@hapi/joi": "15.1.0"
+    "@hapi/boom": "7.4.3",
+    "@hapi/good": "8.2.2",
+    "@hapi/good-console": "8.1.2",
+    "@hapi/good-squeeze": "5.2.1",
+    "@hapi/hapi": "18.4.0",
+    "@hapi/joi": "16.1.1"
   },
   "devDependencies": {
     "@hapi/code": "6.0.0",
-    "@hapi/good": "8.2.0",
-    "@hapi/good-console": "8.1.0",
-    "@hapi/good-squeeze": "5.2.0",
-    "@hapi/lab": "19.1.0",
-    "blipp": "4.0.0",
+    "@hapi/lab": "20.2.2",
+    "blipp": "4.0.1",
     "codeclimate-test-reporter": "0.5.1",
-    "standard": "13.1.0"
+    "standard": "14.3.0"
   }
 }
