@@ -12,18 +12,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hapi/boom": "7.4.3",
+    "@hapi/boom": "7.4.7",
     "@hapi/good": "8.2.2",
     "@hapi/good-console": "8.1.2",
     "@hapi/good-squeeze": "5.2.1",
     "@hapi/hapi": "18.4.0",
-    "@hapi/joi": "16.1.1"
+    "@hapi/joi": "16.1.2"
   },
   "devDependencies": {
     "@hapi/code": "6.0.0",
     "@hapi/lab": "20.2.2",
     "blipp": "4.0.1",
     "codeclimate-test-reporter": "0.5.1",
-    "standard": "14.3.0"
+    "standard": "14.3.1"
   }
 }
