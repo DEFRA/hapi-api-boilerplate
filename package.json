@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@hapi/code": "6.0.0",
-    "@hapi/lab": "20.2.2",
+    "@hapi/lab": "20.3.0",
     "blipp": "4.0.1",
     "codeclimate-test-reporter": "0.5.1",
     "standard": "14.3.1"
