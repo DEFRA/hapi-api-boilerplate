@@ -15,7 +15,7 @@
     "@hapi/boom": "7.4.7",
     "@hapi/good": "8.2.2",
     "@hapi/good-console": "8.1.2",
-    "@hapi/good-squeeze": "5.2.1",
+    "@hapi/good-squeeze": "6.0.0",
     "@hapi/hapi": "18.4.0",
     "@hapi/joi": "16.1.2"
   },
