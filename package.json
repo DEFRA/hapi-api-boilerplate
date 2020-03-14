@@ -24,6 +24,6 @@
     "@hapi/lab": "20.2.2",
     "blipp": "4.0.1",
     "codeclimate-test-reporter": "0.5.1",
-    "standard": "14.3.1"
+    "standard": "14.3.2"
   }
 }
