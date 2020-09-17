@@ -13,15 +13,15 @@
   "license": "ISC",
   "dependencies": {
     "@hapi/boom": "9.1.0",
-    "@hapi/hapi": "19.1.1",
+    "@hapi/hapi": "20.0.0",
     "@hapi/joi": "17.1.1",
-    "hapi-pino": "^8.0.0"
+    "hapi-pino": "^8.3.0"
   },
   "devDependencies": {
-    "@hapi/code": "8.0.1",
-    "@hapi/lab": "22.0.4",
+    "@hapi/code": "8.0.2",
+    "@hapi/lab": "23.0.0",
     "blipp": "4.0.1",
     "codeclimate-test-reporter": "0.5.1",
-    "standard": "14.3.3"
+    "standard": "14.3.4"
   }
 }
