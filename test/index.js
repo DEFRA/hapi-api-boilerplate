@@ -32,4 +32,17 @@ lab.experiment('API test', () => {
     Code.expect(response.statusCode).to.equal(200)
     Code.expect(response.result).to.equal({ ok: 200 })
   })
+
+  lab.test('POST / route fails with invalid payload', async () => {
+    const options = {
+      method: 'POST',
+      url: '/',
+      payload: {
+        email: 'a@b'
+      }
+    }
+
+    const response = await server.inject(options)
+    Code.expect(response.statusCode).to.equal(400)
+  })
 })
