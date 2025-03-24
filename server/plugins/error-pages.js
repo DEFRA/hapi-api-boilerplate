@@ -1,10 +1,10 @@
 /*
-* Add an `onPreResponse` listener to return error pages
+* Add an `onPreResponse` listener to log errors
 */
 
-module.exports = {
+export default {
   plugin: {
-    name: 'log-errors',
+    name: 'error-pages',
     register: (server, options) => {
       server.ext('onPreResponse', (request, h) => {
         const response = request.response
@@ -16,7 +16,7 @@ module.exports = {
 
           // Log the error
           request.log('error', {
-            statusCode: statusCode,
+            statusCode,
             message: response.message,
             stack: response.data ? response.data.stack : response.stack
           })

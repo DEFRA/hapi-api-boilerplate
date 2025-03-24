@@ -1,5 +1,9 @@
-const hapi = require('@hapi/hapi')
-const config = require('./config')
+import hapi from '@hapi/hapi'
+import blipp from 'blipp'
+import config from './config.js'
+import router from './plugins/router.js'
+import errorPages from './plugins/error-pages.js'
+import logging from './plugins/logging.js'
 
 async function createServer () {
   // Create the hapi server
@@ -15,12 +19,12 @@ async function createServer () {
   })
 
   // Register the plugins
-  await server.register(require('./plugins/router'))
-  await server.register(require('./plugins/log-errors'))
-  await server.register(require('./plugins/logging'))
-  await server.register(require('blipp'))
+  await server.register(router)
+  await server.register(errorPages)
+  await server.register(logging)
+  await server.register(blipp)
 
   return server
 }
 
-module.exports = createServer
+export default createServer
