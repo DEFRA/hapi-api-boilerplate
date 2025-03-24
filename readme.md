@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.com/DEFRA/hapi-api-boilerplate.svg?branch=master)](https://travis-ci.com/DEFRA/hapi-api-boilerplate) [![Maintainability](https://api.codeclimate.com/v1/badges/c1b6847c119ba19a8ae3/maintainability)](https://codeclimate.com/github/DEFRA/hapi-api-boilerplate/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/c1b6847c119ba19a8ae3/test_coverage)](https://codeclimate.com/github/DEFRA/hapi-api-boilerplate/test_coverage) [![Greenkeeper badge](https://badges.greenkeeper.io/DEFRA/hapi-api-boilerplate.svg)](https://greenkeeper.io/)
-
 # (Enter service name)
 (Description of the service)
 
@@ -39,7 +37,7 @@ Click here for a similar [web boilerplate hapi project](https://github.com/DEFRA
 Based on:
 
 - [hapijs](https://github.com/hapijs/hapi) - The framework & core plugins like `joi`, `h2o2` etc.
-- [standardjs](http://standardjs.com/) - Linting
+- [neostandard](https://github.com/neostandard/neostandard) - Linting
 - [npm-scripts](https://docs.npmjs.com/misc/scripts) - Build tool
 - [pm2](https://github.com/Unitech/pm2) - Process manager
 
@@ -79,11 +77,7 @@ Plugins live in the `server/plugins` directory.
 
 ## Logging
 
-The [good](https://github.com/hapijs/good) and [good-console](https://github.com/hapijs/good-console) plugins are included and configured in `server/plugins/logging`
-
-The logging plugin is only registered in when `NODE_ENV=development`.
-
-Error logging for production should use errbit.
+The [@hapi/log](https://github.com/hapijs/log) is included and configured in `server/plugins/logging`
 
 ## Routes
 
@@ -122,7 +116,7 @@ We chose to use this for simplicity but there's nothing to stop you adding `gulp
 
 The predefined tasks are:
 
-- `npm run lint` (Runs the lint task using standard.js)
+- `npm run lint` (Runs the lint task using neostandard)
 - `npm run unit-test` (Runs the `lab` tests in the `/test` folder)
 - `npm test` (Runs the `lint` task then the `unit-tests`)
 
@@ -137,12 +131,12 @@ For more information around using `npm-scripts` as a build tool:
 
 ## Testing
 
-[lab](https://github.com/hapijs/lab) and [code](https://github.com/hapijs/code) are used for unit testing.
+[jest](https://https//jestjs.io/) is used for unit testing.
 
-See the `/test` folder for more information.
+See the `/__test__` folder for more information.
 
 ## Linting
 
-[standard.js](http://standardjs.com/) is used to lint both the server-side and client-side javascript code.
+[neostandard](https://github.com/neostandard/neostandard) is used to lint both the server-side and client-side javascript code.
 
 It's defined as a build task and can be run using `npm run lint`.

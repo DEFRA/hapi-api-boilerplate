@@ -1,26 +1,12 @@
-const joi = require('@hapi/joi')
-
-module.exports = [{
-  method: 'GET',
-  path: '/',
-  handler: (request, h) => {
-    return {
-      hello: 'world'
+export default [
+  {
+    method: 'GET',
+    path: '/',
+    handler: (request, h) => {
+      return {
+        title: 'Hello',
+        message: 'World'
+      }
     }
   }
-}, {
-  method: 'POST',
-  path: '/',
-  handler: (request, h) => {
-    return {
-      hello: 'world'
-    }
-  },
-  options: {
-    validate: {
-      payload: joi.object().keys({
-        email: joi.string().email().required()
-      })
-    }
-  }
-}]
+]

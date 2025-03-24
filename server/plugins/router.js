@@ -1,9 +1,10 @@
+import home from '../routes/home.js'
+
 const routes = [].concat(
-  require('../routes/home'),
-  require('../routes/about')
+  home
 )
 
-module.exports = {
+export default {
   plugin: {
     name: 'router',
     register: (server, options) => {
